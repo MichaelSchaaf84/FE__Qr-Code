@@ -1,0 +1,19 @@
+$white: hsl(0, 0%, 100%);
+$light-gray: hsl(212, 45%, 89%);
+$grayish-blue: hsl(220, 15%, 55%);
+$dark-blue: hsl(218, 44%, 22%);
+$font-regular: "Outfit", sans-serif;
+$font-size-p: 15px;
+p {
+  font-family: $font-regular;
+  font-size: $font-size-p;
+}
+h1 {
+  font-family: $font-regular;
+  font-weight: 700;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
