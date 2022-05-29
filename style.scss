@@ -4,16 +4,42 @@ $grayish-blue: hsl(220, 15%, 55%);
 $dark-blue: hsl(218, 44%, 22%);
 $font-regular: "Outfit", sans-serif;
 $font-size-p: 15px;
-p {
-  font-family: $font-regular;
-  font-size: $font-size-p;
+* {
+  margin: 0;
+  padding: 0;
+  //  box-sizing: border-box;
 }
-h1 {
-  font-family: $font-regular;
-  font-weight: 700;
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  background: $light-gray;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 .wrapper {
-  display: flex;
-  flex-direction: column;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.card {
+  padding: 18px;
+  border-radius: 17px;
+  background: $white;
   text-align: center;
+  margin: 0 1em;
+  img {
+    border-radius: 12px;
+    width: 100%;
+  }
+  .text {
+    padding: 22px 10px;
+    h2 {
+      color: $dark-blue;
+      padding-bottom: 15px;
+    }
+    p {
+      color: $grayish-blue;
+    }
+  }
 }

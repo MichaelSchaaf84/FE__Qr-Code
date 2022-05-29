@@ -1,2 +1,2 @@
-p{font-family:"Outfit",sans-serif;font-size:15px}h1{font-family:"Outfit",sans-serif;font-weight:700}.wrapper{display:flex;flex-direction:column;text-align:center}
+*{margin:0;padding:0}body{font-family:"Outfit", sans-serif;font-size:15px;background:#d6e2f0;min-height:100vh;display:flex;align-items:center}.wrapper{max-width:360px;margin:0 auto}.card{padding:18px;border-radius:17px;background:#fff;text-align:center;margin:0 1em}.card img{border-radius:12px;width:100%}.card .text{padding:22px 10px}.card .text h2{color:#1f3251;padding-bottom:15px}.card .text p{color:#7b879d}
 /*# sourceMappingURL=style.min.css.map */
